@@ -388,10 +388,3 @@ The diagram below shows how, by copying/pasting our existing definitions, and up
 ### **Conclusion**
 
 In this example, we deployed a simple Terraform definition for an Azure Service Bus instance using an ADO pipeline. This Terraform code can easily be extended to deploy additional Azure services as required.
-
-
-If you found this helpful, consider **starring** ⭐ the repository and sharing it with your network! 🚀  
-
-### 📢 Stay Connected  
-
-![Follow Me](https://imgur.com/2j7GSPs.png)
