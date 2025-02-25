@@ -4,12 +4,6 @@
 
 ## In-depth guide to using Azure DevOps to deploy Terraform code to Azure
 
-Recently needed to use Terraform to deploy Azure services via Azure DevOps.
-
-Having focused on Bicep for the past couple of years, it's been a while since I've used Terraform, so I was looking for a quick example Azure DevOps (ADO) deployment pipeline.
-
-There are some good references out there, but I felt most of them skimmed over some key configuration, such as Azure subscription permissions or ADO secrets.
-
 This guide will cover everything required to deploy an example Azure Service Bus instance via Terraform and ADO.
 
 In addition to creating an example pipeline, we'll also add enhanced capabilities, including -
@@ -21,9 +15,6 @@ In addition to creating an example pipeline, we'll also add enhanced capabilitie
 * Create a multi-stage ADO pipeline with an approval step
 
 * Demonstrating how we can scale with multiple deployments
-
-
-> *If you'd like to skip straight to the download of the example pipeline and Terraform code, it can be found on* [*GitHub*](https://github.com/NotHarshhaa/DevOps-Projects/tree/master/DevOps-Project-20/terraform)*.*
 
 ### **Overall Topology**
 
@@ -396,22 +387,8 @@ The diagram below shows how, by copying/pasting our existing definitions, and up
 
 ### **Conclusion**
 
-I hope you found this post useful. In this example, we deployed a simple Terraform definition for an Azure Service Bus instance using an ADO pipeline. This Terraform code can easily be extended to deploy additional Azure services as required.
+In this example, we deployed a simple Terraform definition for an Azure Service Bus instance using an ADO pipeline. This Terraform code can easily be extended to deploy additional Azure services as required.
 
-## 🛠️ Author & Community  
-
-This project is crafted by **[Harshhaa](https://github.com/NotHarshhaa)** 💡.  
-I’d love to hear your feedback! Feel free to share your thoughts.  
-
-📧 **Connect with me:**
-
-- **GitHub**: [@NotHarshhaa](https://github.com/NotHarshhaa)
-- **Blog**: [ProDevOpsGuy](https://blog.prodevopsguy.xyz)  
-- **Telegram Community**: [Join Here](https://t.me/prodevopsguy)  
-
----
-
-## ⭐ Support the Project  
 
 If you found this helpful, consider **starring** ⭐ the repository and sharing it with your network! 🚀  
 
