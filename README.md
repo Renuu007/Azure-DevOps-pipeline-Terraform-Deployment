@@ -231,9 +231,6 @@ To create an ADO environment -
 
 * Select **Next** and add the required approver, i.e. ourselves (fine-tune these settings as required for your organization)
 
-
-![None](https://miro.medium.com/v2/resize:fit:700/0*aVMcQ_NuQ6cXCWC3.png)
-
 The created environment…
 
 ![None](https://miro.medium.com/v2/resize:fit:700/0*Z1LsCoH66MgO41gZ.png)
